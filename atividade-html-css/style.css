@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; 
+    color: #fff; 
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #d3a6e5;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+form, table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #333333;
+    margin-bottom: 20px;
+}
+
+#contato {
+    background-color: #222; 
+    color: #fff;
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#contato h2 {
+    margin-bottom: 20px; 
+    color: #d3a6e5;
+}
+
+form {
+    display: flex; 
+    flex-direction: column; 
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 97%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #555; 
+    border-radius: 5px; 
+    background: #444; 
+    color: #fff; 
+}
+
+button {
+    background: #d3a6e5; 
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #b287d8; 
+}
+
+table, th, td {
+    border: 1px solid #555; 
+    padding: 10px;
+}
+
+th {
+    background: #444; 
+}
+
+.pessoal-content {
+    display: flex; 
+    align-items: center;
+}
+
+.pessoal-img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    margin-right: 20px; 
+    object-fit: cover; 
+}
+
+.pessoal-info {
+    max-width: 600px; 
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: calc(33% - 10px);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255,255,255,0.3);
+    transition: transform 0.3s, opacity 0.3s; 
+}
+
+.gallery img:hover {
+    transform: scale(1.05); 
+    opacity: 0.9; 
+}
+
+#artigo {
+    background-color: #fff; 
+    color: #000; 
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#artigo h2 {
+    color: #060629; 
+}
+
+#artigo h3 {
+    margin-top: 20px;
+}
+
+#artigo p {
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+}
+
+header, footer {
+    background: #111; 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card {
+    background: #22093627; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(222, 190, 243);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+#blog {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
+}
+
+.blog-content {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.post {
+    background-color: #333; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    width: calc(50% - 10px);
+    max-width: 400px; 
+}
+
+.post img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover;
+}
+
+
+.post h3 {
+    color: #d3a6e5; 
+    margin: 10px;
+}
+
+.post p {
+    margin: 10px;
+    line-height: 1.5;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #d3a6e5;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #fff; 
+    border: 2px solid #d3a6e5; 
+    box-shadow: 0 0 5px #d3a6e5, 0 0 10px #d3a6e5, 0 0 15px #d3a6e5; /* Efeito neon */
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .gallery img {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery img {
+        width: 100%;
+    }
+    .card {
+        max-width: 100%;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        margin: 5px 0;
+    }
+}
