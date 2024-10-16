@@ -1,2 +1,2 @@
-# senai-be
-Aprendizagem Industrial Desenvolvimento Back-End SENAI
+npm init
+npm install express
