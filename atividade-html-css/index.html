@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1534/1534067.png">
+    <title>Atividades Práticas de HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Atividades Práticas de HTML e CSS</h1>
+</header>
+
+<nav>
+    <a href="#pessoal">Página Pessoal</a>
+    <a href="#artigo">Artigo</a>
+    <a href="#contato">Contato</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#tabela">Preços</a>
+    <a href="#card">Card</a>
+    <a href="#blog">Blog</a>
+</nav>
+
+<main>
+    <section id="pessoal" class="container">
+        <h2>Página Pessoal Simples</h2>
+        <div class="pessoal-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg" alt="Minha foto" class="pessoal-img">
+            <div class="pessoal-info">
+                <p>Meu Nome: Isaac Newton</p>
+                <p>Idade: 33 anos</p>
+                <p>Hobbies: Ler, Óptica, Alquimia</p>
+            </div>
+        </div>
+    </section>    
+
+    <section id="artigo" class="container">
+        <h2>Como se formaram as galáxias?</h2>
+        <h3>Os Problemas da Cosmologia na Sala de Aula</h3>
+        <p>
+            Apresentamos aqui uma discussão pedagógica do processo de formação de estruturas (galáxias e além) no Universo, com um mínimo de formalismo e ênfase nas ideias físicas que colocam a instabilidade gravitacional como o principal agente do mesmo. O papel fundamental da matéria escura para a formação de estrutura é enfatizado e exemplificado. Finalmente, discutimos brevemente algumas observações recentes que desafiam o cenário aceito, o que mostra com clareza o caráter científico da Cosmologia atual.
+        </p>
+        <h4>Palavras-chave:</h4>
+        <p>Formação de estrutura; galáxias; instabilidade gravitacional</p>
+        <p><b>Leia mais em: </b><a href="https://www.scielo.br/j/rbef/a/VhR9Rxwp4grRcQ7JNJb4rvf/">Artigo sobre como as galáxias se formam</a></p>
+    </section>
+    
+    <section id="contato" class="container">
+        <h2>Formulário de Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" rows="5" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="galeria" class="container">
+        <h2>Galeria de Imagens</h2>
+        <div class="gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/260px-Black_hole_-_Messier_87_crop_max_res.jpg" alt="Imagem 1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Messier_81_HST.jpg/1200px-Messier_81_HST.jpg" alt="Imagem 2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/1200px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg" alt="Imagem 3">
+        </div>
+    </section>
+
+    <section id="tabela" class="container">
+        <h2>Tabela de Preços</h2>
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Telescópio</td>
+                <td>R$ 3500,00</td>
+            </tr>
+            <tr>
+                <td>Notebook</td>
+                <td>R$ 2800,00</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="card" class="container">
+        <h2>Design de um Card</h2>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/45/74/cd/4574cda4f30f17d4568ad27f94f707ce.jpg" alt="Imagem do Card">
+            <h3>Astra</h3>
+            <p>Astra, do jogo Valorant, é conhecida por suas habilidades cósmicas.</p>
+        </div>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Layout de Blog</h2>
+        <div class="blog-content">
+            <div class="post">
+                <img src="https://s2-g1.glbimg.com/tcUFpgJz-Ee_L62K18kKOzBQt_c=/0x0:4076x4076/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/M/y/mBfAkbS8mULBcmdQHZIw/eso2208-eht-mwa.jpg" alt="Buraco Negro Sgr A*">
+                <h3>Buraco Negro Sgr A*</h3>
+                <p>O buraco negro Sgr A* está localizado no centro da Via Láctea e possui uma massa equivalente a cerca de 4 milhões de sóis.</p>
+            </div>
+            <div class="post">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6FghSOytWovOPXikuSNdUQjWCL62KFQ51w&s" alt="Nebulosa Borboleta">
+                <h3>Nebulosa Borboleta</h3>
+                <p>A Nebulosa Borboleta (NGC 6302) é uma nebulosa planetária que apresenta uma forma distintiva semelhante a uma borboleta, localizada a cerca de 3.400 anos-luz da Terra.</p>
+            </div>
+        </div>
+    </section>    
+</main>
+
+<footer>
+    <p>© 2024 Meu Projeto de HTML e CSS</p>
+</footer>
+
+</body>
+</html>

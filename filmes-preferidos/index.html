@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Filmes Favoritos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meus Filmes Favoritos</h1>
+        <p>Aqui você encontrará uma lista dos melhores filmes existentes.</p>
+    </header>
+
+    <section>
+        <div class="filmes-container">
+            <div class="filme-box">
+                <img src="img/interestelar.jpg" alt="Interestelar">
+                <p>Interestelar</p>
+                <p>Ano: 2014</p>
+                <p>Ator principal: Matthew McConaughey</p>
+            </div>
+            <div class="filme-box">
+                <img src="img/duna.jpg" alt="Duna">
+                <p>Duna parte 1</p>
+                <p>Ano: 2021</p>
+                <p>Ator principal: Timothée Chalamet</p>
+            </div>
+            <div class="filme-box">
+                <img src="img/duna2.jpg" alt="Duna 2">
+                <p>Duna parte 2</p>
+                <p>Ano: 2024</p>
+                <p>Ator principal: Timothée Chalamet</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Tabela de Filmes</h2>
+        <div class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Ano de Lançamento</th>
+                        <th>Ator Principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Duna parte 1</td>
+                        <td>2021</td>
+                        <td>Timothée Chalamet</td>
+                    </tr>
+                    <tr>
+                        <td>Interestelar</td>
+                        <td>2014</td>
+                        <td>Matthew McConaughey</td>
+                    </tr>
+                    <tr>
+                        <td>Duna parte 2</td>
+                        <td>2024</td>
+                        <td>Timothée Chalamet</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h2>Adicione à lista de melhores filme:</h2>
+        <form id="contato-form">
+            <label for="filme">Nome do filme:</label>
+            <input type="text" id="filme" name="filme" required>
+            <br>
+            <label for="ano">Ano:</label>
+            <input type="text" id="ano" name="ano" required>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <div class="imagem-container">
+        <img src="https://miro.medium.com/v2/resize:fit:400/1*GwGVhmwgdXqudMp714dasw.jpeg" alt="Imagem de Interestelar">
+        <a href="https://pt.wikipedia.org/wiki/Interstellar">Saiba mais sobre o filme Interestelar</a>
+    </div>
+
+</body>
+</html>
