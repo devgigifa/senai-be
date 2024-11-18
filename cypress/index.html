@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Login Form</title>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section>
+    <form id="loginForm">
+      <h1>Login</h1>
+      <div class="inputbox">
+        <ion-icon name="mail-outline"></ion-icon>
+        <input type="email" id="email" required>
+        <label for="">Email</label>
+      </div>
+      <div class="inputbox">
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <input type="password" id="password" required>
+        <label for="">Password</label>
+      </div>
+      <button type="submit">Log in</button>
+    </form>
+  </section>
+ 
+  <script>
+document.getElementById('loginForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+
+
+  if (email === 'teste@gmail.com' && password === 'password') {
+    alert('Login bem-sucedido!');
+  } else {
+    alert('Usuário ou senha incorretos.');
+  }
+
+
+  this.reset();
+});
+
+
+  </script>
+</body>
+</html>
