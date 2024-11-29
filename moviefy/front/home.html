@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - MOVIEfy</title>
+    <link rel="stylesheet" href="../front/css/home.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">MOVIEfy</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyWw0c35WoDdPJ63lIQbRVbwk6kC0qImMRPA&s" alt="Search"></button>
+        </div>
+        <div class="user-profile">
+            <img src="https://static-00.iconduck.com/assets.00/user-icon-2046x2048-9pwm22pp.png" alt="User">
+        </div>
+    </header>
+
+    <main>
+        <div class="player">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/g_moana_09_17699_064f5500_2f9ff275.jpeg?region=285,0,730,730" alt="Moana logo" class="album-cover">
+            <div class="song-info">
+                <h3>Sou Moana</h3>
+                <div class="controls">
+                    <button>&#9664;</button>
+                    <button class="play">&#10074;&#10074;</button>
+                    <button>&#9654;</button>
+                </div>
+                <div class="progress-bar">
+                    <input type="range" value="50">
+                </div>
+            </div>
+        </div>
+
+        <div class="music-sections">
+            <section>
+                <h2>Novas músicas adicionadas</h2>
+                <div class="music-grid">
+                    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_tgor3iIIuSiqlQLxJA5FUUk6635TXeu-A&s" alt="Hino de Hogwarts"><p>Hino de Hogwarts</p></div>
+                    <div><img src="https://www.oficinadanet.com.br/imagens/post/55307/jurassic-park-completa-31-anos-hoje-veja-como-esta-o-elenco-original-e-onde-assistir.jpg" alt="Jurassic Park"><p>Jurassic Park</p></div>
+                    <div><img src="https://br.web.img2.acsta.net/pictures/210/461/21046189_20131002174340886.jpg" alt="Minha Intuição"><p>Minha Intuição</p></div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Álbuns</h2>
+                <div class="music-grid">
+                    <div><img src="https://play-lh.googleusercontent.com/mD_B8KzUVh3ENwq79T_EilMzyK-Zg6srO4tBbX3ilzTE3XglLnj5NGJkYg5RmF0TbS3G" alt="Star Wars"><p>Star Wars</p></div>
+                    <div><img src="https://m.media-amazon.com/images/S/pv-target-images/54fcb6e3ca207573c673f9ac550dc265caeb637dcc7218895bffded007692102.jpg" alt="Sing"><p>Sing</p></div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Playlist's</h2>
+                <div class="music-grid">
+                    <div><img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e793bc21896fea76d410761a" alt="Curtidas"><p>Curtidas</p></div>
+                </div>
+            </section>
+
+            <div class="music-player">
+                <div class="album-cover">
+                  <img src="images/album-cover.png" id="rotatingImage" alt="" />
+                  <span class="point"></span>
+                </div>
+    
+                <h2>Redemption</h2>
+                <p>Besomorph & Coopex</p>
+    
+                <audio id="song">
+                  <source src="Besomorph-Coopex-Redemption.mp3" type="audio/mpeg" />
+                </audio>
+    
+                <input type="range" value="0" id="progress" />
+    
+                <div class="controls">
+                  <button class="backward">
+                    <i class="fa-solid fa-backward"></i>
+                  </button>
+                  <button class="play-pause-btn">
+                    <i class="fa-solid fa-play" id="controlIcon"></i>
+                  </button>
+                  <button class="forward">
+                    <i class="fa-solid fa-forward"></i>
+                  </button>
+                </div>
+              </div>
+              <main>
+                <div class="player">
+                    <!-- Player de Música Existente -->
+                </div>
+            
+                <div class="music-sections">
+                    <!-- Seções de Música Existentes -->
+            
+                    <!-- Músicas Recomendadas -->
+                    <div class="recommended">
+                        <h2>Músicas Recomendadas</h2>
+                        <div class="recommended-grid">
+                            <div class="recommended-item">
+                                <img src="image1.jpg" alt="Recomendação 1">
+                                <p>Música 1</p>
+                            </div>
+                            <div class="recommended-item">
+                                <img src="image2.jpg" alt="Recomendação 2">
+                                <p>Música 2</p>
+                            </div>
+                            <div class="recommended-item">
+                                <img src="image3.jpg" alt="Recomendação 3">
+                                <p>Música 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+        </div>
+    </main>
+</body>
+</html>
